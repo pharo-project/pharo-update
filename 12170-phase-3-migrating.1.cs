@@ -1,0 +1,1 @@
+'From Squeak4.2alpha of 19 August 2010 [latest update: #10382] on 22 September 2010 at 11:16:40 pm'!!WeakFinalizationRegistry class methodsFor: 'migrating registry' stamp: 'Igor.Stasenko 9/22/2010 23:13'!initialize	self migrateOldRegistries.! !WeakFinalizationRegistry initialize!

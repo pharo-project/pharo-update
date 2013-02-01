@@ -1,0 +1,1 @@
+SystemVersion newVersion: 'Pharo1.2rc1'.!

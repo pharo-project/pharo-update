@@ -1,1 +1,0 @@
-"Postscript:"  (self confirm: '***DANGER*** THIS RUNS ONLY ON AN OLD INTERPRETER SQUEAK VM Do not run on Cog or StackVM')        ifTrue: [Object subclass: #Behavior	uses: TPureBehavior	instanceVariableNames: 'superclass methodDict format layout'	classVariableNames: 'ObsoleteSubclasses'	poolDictionaries: ''	category: 'Kernel-Classes']!
