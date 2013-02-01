@@ -1,1 +1,0 @@
-'From Pharo2.0a of ''18 April 2012'' [Latest update: #14437] on 19 April 2012 at 4:03:16 pm'!!ScriptLoader class methodsFor: 'loadscripts' stamp: 'MarcusDenker 4/19/2012 16:03'!initialize	self flag: #shouldRemoveNumber.	CurrentMajorVersionNumber :=  2.0! !ScriptLoader initialize!
