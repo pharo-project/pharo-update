@@ -1,1 +1,0 @@
-'From Pharo2.0a of ''18 April 2012'' [Latest update: #14437] on 19 April 2012 at 4:03:16 pm'!ScriptLoader currentMajorVersionNumber: 2.0!
