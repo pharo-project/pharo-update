@@ -1,0 +1,1 @@
+ScriptLoader new cleanUpForRelease.
