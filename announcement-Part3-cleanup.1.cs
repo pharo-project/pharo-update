@@ -1,0 +1,1 @@
+'From Pharo1.4a of ''16 June 2011'' [Latest update: #14276] on 3 January 2012 at 12:28:41 pm'!AnnouncementSubscription removeSelector: #handles:!WeakAnnouncementSubscription removeSelector: #handles:!AnnouncementSet removeSelector: #handles:!Announcement class removeSelector: #handles:!
