@@ -1,0 +1,1 @@
+'From Pharo3.0 of 18 March 2013 [Latest update: #30369] on 5 September 2013 at 9:46:45 am'!!Class methodsFor: 'accessing' stamp: 'CamilloBruni 9/5/2013 09:46'!setName: aSymbol	name := aSymbol.! !!Class methodsFor: 'accessing' stamp: 'CamilloBruni 9/5/2013 09:46'!setName: aSymbol	name := aSymbol.! !
