@@ -7,3 +7,18 @@ The [updates30.list](updates30.list) is contains a list of all update files and 
 
 Do not touch these files manually if you do not know what you are doing. 
 Read the class comments of the `ScriptLoader` class for a complete description of the Pharo integration process.
+
+
+
+
+
+
+
+The update30.list file is generated on the server and in case of emergency this is the way to modify it.
+
+	ssh file-pharo.inria.fr
+	sudo su - filepharosync
+	cd /appli/files.pharo.org/updates/pharo3.0/
+	vi updates30.list
+	
+Good luck because you should not need it at all.
