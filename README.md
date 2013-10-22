@@ -11,7 +11,7 @@ Read the class comments of the `ScriptLoader` class for a complete description o
 
 The update30.list file is generated on the server and in case of emergency this is the way to modify it.
 
-	ssh file-pharo.inria.fr
+	ssh files.pharo.org
 	sudo su - filepharosync
 	cd /appli/files.pharo.org/updates/pharo3.0/
 	vi updates30.list
