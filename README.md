@@ -13,22 +13,22 @@ Here is a bit of an explanation of how the staged and update.list are merged: th
 https://ci.inria.fr/pharo/job/Pharo-3.0-Update-Step-3-Release/
 
 
-./pharo Pharo.image eval "
-updates := (ZnEasy get: 'http://files.pharo.org/updates/pharo3.0/updates30.list') contents lines. 
-updates := updates reject: [ :each | each beginsWith: '#' ].
+	./pharo Pharo.image eval "
+	updates := (ZnEasy get: 'http://files.pharo.org/updates/pharo3.0/updates30.list') contents lines. 
+	updates := updates reject: [ :each | each beginsWith: '#' ].
 
-staged := 'updates30.staged' asFileReference readStream contents asString lines.
-staged := staged reject: [ :each | each beginsWith: '#' ].
+	staged := 'updates30.staged' asFileReference readStream contents asString lines.
+	staged := staged reject: [ :each | each beginsWith: '#' ].
 
-updates := (updates, staged) asSet asArray sorted.
+	updates := (updates, staged) asSet asArray sorted.
 
-'updates30.list' asFileReference ensureDeleted writeStreamDo: [ :output |
+	'updates30.list' asFileReference ensureDeleted writeStreamDo: [ :output |
 
-	output nextPutAll: '#Pharo3.0'; cr.
-	updates do: [ :each |
-		output nextPutAll: each; cr ]].
+		output nextPutAll: '#Pharo3.0'; cr.
+		updates do: [ :each |
+			output nextPutAll: each; cr ]].
 
-Smalltalk snapshot: false andQuit: true."
+	Smalltalk snapshot: false andQuit: true."
 
 
 The update30.list file is generated on the server and in case of emergency this is the way to modify it.
