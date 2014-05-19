@@ -1,4 +1,4 @@
-Pharo 3.0 Update Files
+Pharo 4.0 Update Files
 ======================
 
 This repository contains a collection of the updates files used for the system-updates of Pharo 3.0.
