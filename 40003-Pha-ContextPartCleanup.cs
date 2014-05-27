@@ -2,6 +2,7 @@
 
 "1. keep a pointer to MethodContext object"
 
+Author fullName: 'ClementBera'.
 contextObj := MethodContext.
 
 "2. Temporarily Prefill globals with new reference"
@@ -95,5 +96,5 @@ contextObj compile: 'printOn: aStream
         ifNotNil: [ :outerContext |
              aStream nextPutAll: closureOrNil printString,'' in ''.
              outerContext printOn: aStream ]' classified: #printing.
-
-"14. Finished. Try to open a debugger and a browser on Context to be sure."
+								 
+Author reset
