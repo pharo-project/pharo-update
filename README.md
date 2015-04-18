@@ -1,3 +1,5 @@
+We should update this readme
+
 Pharo 4.0 Update Files
 ======================
 
